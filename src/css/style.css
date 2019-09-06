@@ -1,3 +1,7 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
 .container {
     margin: 0 auto;
     height: auto;
@@ -55,20 +59,29 @@
 
  }
 
-/* Set to 100% width for mobile-first support */
 .full-width {
-    flex: 100%;
+    width:100vw;
+    background-color: #ccc;
+    height: auto;
+}
+
+/* Set to 100% width for mobile-first support */
+.col-1 {
+    width: 100%;
     background-color: #aaa;
+    padding: 10px;
 }
 
 /* Set to 100% width for mobile-first support */
 .col-2 {
     width: 100%;
     background-color: #ccc;
+    padding: 10px;
 }
 
 /* Set to 100% width for mobile-first support */
 .col-3 {
     width: 100%;
     background-color: #414141;
+    padding: 10px;
 }
