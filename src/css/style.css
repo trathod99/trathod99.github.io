@@ -2,6 +2,8 @@
     margin: 0 auto;
     height: auto;
     background-color: #eee;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 @media (min-width: 320px) {
@@ -26,6 +28,15 @@
         width: 720px;
     }
 
+    /* By default, columns are 100% width. This makes them display side-by-side on tablet displays and larger */
+    .col-2 {
+        flex:50%;
+    }
+
+    .col-3 {
+        flex:33.3%;
+    }
+
 }
 
 @media (min-width: 992px) { 
@@ -43,3 +54,21 @@
     }
 
  }
+
+/* Set to 100% width for mobile-first support */
+.full-width {
+    flex: 100%;
+    background-color: #aaa;
+}
+
+/* Set to 100% width for mobile-first support */
+.col-2 {
+    width: 100%;
+    background-color: #ccc;
+}
+
+/* Set to 100% width for mobile-first support */
+.col-3 {
+    width: 100%;
+    background-color: #414141;
+}
