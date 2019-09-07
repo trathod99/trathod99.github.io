@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'Futura PT', Arial, Helvetica, sans-serif;
+    font-family: futura-pt, Arial, Helvetica, sans-serif;
     font-weight: 700;
     letter-spacing: 0.5px;
     line-height: 5rem;
@@ -7,9 +7,54 @@ h1 {
 }
 
 h2 {
-    font-family: 'Futura PT', Arial, Helvetica, sans-serif;
+    font-family: futura-pt, Arial, Helvetica, sans-serif;
     font-weight: 700;
     letter-spacing: 0.5px;
     line-height: 3rem;
     font-size: 2rem;
 }
+
+h3 {
+    font-family: futura-pt, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    font-size: 1.5em;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: proxima-nova, Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.65px;
+    line-height: 2.0rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+p {
+    font-family: proxima-nova, Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500; 
+    opacity: 0.7;
+}
+
+    a:hover {
+        opacity: 1;
+    }
+
+    a > i {
+        position: relative;
+        top: 1px;
+        left: 2px;
+        transition-duration: 0.3s;
+    }
+
+        a:hover i {
+            margin-left: 6px;
+        }
