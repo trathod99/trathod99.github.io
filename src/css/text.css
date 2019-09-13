@@ -1,6 +1,6 @@
 h1 {
-    font-family: futura-pt, Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    font-family: jubilat, futura-pt, Arial, Helvetica, sans-serif;
+    font-weight: 500;
     letter-spacing: 0.5px;
     line-height: 5rem;
     font-size: 4rem;
@@ -10,9 +10,15 @@ h2 {
     font-family: futura-pt, Arial, Helvetica, sans-serif;
     font-weight: 700;
     letter-spacing: 0.5px;
-    line-height: 3rem;
+    line-height: 2.8rem;
     font-size: 2rem;
 }
+
+    h2.fancy {
+        font-family: jubilat;
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
 
 h3 {
     font-family: futura-pt, Arial, Helvetica, sans-serif;
@@ -26,10 +32,10 @@ h3 {
 h4 {
     font-family: proxima-nova, Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
-    letter-spacing: 0.65px;
+    letter-spacing: 0.7px;
     line-height: 2.0rem;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 p {
@@ -38,11 +44,23 @@ p {
     line-height: 2rem;
 }
 
+    p.fancy {
+        font-family: jubilat;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
+
 a {
     text-decoration: none;
     font-weight: 500; 
     opacity: 0.7;
+    transition-duration: 0.4s;
 }
+
+    a.active {
+        opacity: 1;
+    }
 
     a:hover {
         opacity: 1;
