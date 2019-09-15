@@ -1,3 +1,9 @@
+.center {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 h1 {
     font-family: jubilat, futura-pt, Arial, Helvetica, sans-serif;
     font-weight: 500;
@@ -10,7 +16,7 @@ h2 {
     font-family: futura-pt, Arial, Helvetica, sans-serif;
     font-weight: 700;
     letter-spacing: 0.5px;
-    line-height: 2.8rem;
+    line-height: 2.4rem;
     font-size: 2rem;
 }
 
@@ -33,7 +39,7 @@ h4 {
     font-family: proxima-nova, Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
     letter-spacing: 0.7px;
-    line-height: 2.0rem;
+    line-height: 1.5rem;
     text-transform: uppercase;
     font-weight: 700;
 }

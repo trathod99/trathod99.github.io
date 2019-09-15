@@ -25,6 +25,7 @@
         
         <div class="container hero">
             <div class="col-1 header">
+                <div class="spacer"></div>
                 <h1 class="dark-grey">Hi, I'm Tyler! I use design to solve problems.</h1>
                 <div class="spacer"></div>
                 <h3 class="light-grey-text">product design <span>ui/ux</span> web development</h3>
@@ -34,16 +35,14 @@
         </div>
         <!-- <div class="full-width curve"> -->
         <div class="big-spacer"></div>
-        <div class="spacer"></div>
+        <div class="big-spacer"></div>
     </div>
     <div class="full-width light-grey-bg fade-in layer-over">
-        <div class="container">
-            <div class="spacer"></div>
-            <div class="spacer"></div>
-            <h2 class="dark-grey fancy">My Work</h2>
-            <div class="spacer"></div>
-            <div class="spacer"></div>
-        </div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <h2 class="fancy dark-grey center">My Work</h2>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
         <div class="container">
             <div class="col-2 col-2-left light-grey-bg">
                 <div class="card">
@@ -52,36 +51,10 @@
                     <div class="spacer"></div>
                     <p class="dark-grey">Letting users reignite the flame with previous matches. Built with Sketch, Principle, and After Effects</p>
                     <div class="spacer"></div>
-                    <p><a href="https://www.notion.so/Tinder-Reconnect-a-Product-Management-and-UX-UI-Design-Case-Study-b45daaeaa83f48d3906d06890c9fbaaa" class="green">Check it out <i class="fas fa-long-arrow-alt-right"></i></a></p>
+                    <p><a href="https://medium.com/@trathod99/tinder-reconnect-a-product-management-and-ux-ui-design-case-study-9f5c7dbc9b6e" class="green">Check it out <i class="fas fa-long-arrow-alt-right"></i></a></p>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
-                    <div class="card-img" id="tinder-card-img"></div>
-                </div>
-            </div>
-            <div class="col-2 col-2-right light-grey-bg">
-                <div class="card">
-                    <h2 class="dark-grey">Cal Poly Menus</h2>
-                    <h4 class="light-grey-text">product management / web dev</h4>
-                    <div class="spacer"></div>
-                    <p class="dark-grey">I planned, designed, and built a new menu/nutrition management system for my school's on-campus restaurants.</p>
-                    <div class="spacer"></div>
-                    <p><a href="" class="green">Read the writeup <i class="fas fa-long-arrow-alt-right"></i></a></p>
-                    <div class="spacer"></div>
-                    <div class="spacer"></div>
-                    <div class="card-img"></div>
-                </div>
-            </div>
-            <div class="col-2 col-2-left light-grey-bg">
-                <div class="card">
-                    <h2 class="dark-grey">Automated Cal Poly Marketing Presentations</h2>
-                    <h4 class="light-grey-text">product management / web dev</h3>
-                    <div class="spacer"></div>
-                    <p class="dark-grey">Developers and marketing employees in my department had to spend several hours a quarter preparing presentations for stakeholders to show off the latest marketing campaigns and assets. I automated the process.</p>
-                    <div class="spacer"></div>
-                    <p><a href="https://github.com/trathod99/cpc-creative-pack" class="green">Read about it on Github <i class="fas fa-long-arrow-alt-right"></i></a></p>
-                    <div class="spacer"></div>
-                    <div class="spacer"></div>
-                    <div class="card-img"></div>
+                    <div class="card-img" id="tinder-card-img"><img src="src/img/tinder_banner.svg"></div>
                 </div>
             </div>
             <div class="col-2 col-2-right light-grey-bg">
@@ -94,9 +67,46 @@
                     <p><a href="https://medium.com/@trathod99/redesigning-evernotes-mobile-editing-interface-in-progress-40021bc4cefc" class="green">Read the writeup <i class="fas fa-long-arrow-alt-right"></i></a></p>
                     <div class="spacer"></div>
                     <div class="spacer"></div>
-                    <div class="card-img" id="ev-card-img"></div>
+                    <div class="card-img" ><img src="src/img/evernote_banner.svg"></div>
                 </div>
             </div>
+            <div class="col-2 col-2-left light-grey-bg">
+                <div class="card">
+                    <h2 class="dark-grey">Automated Cal Poly Marketing Presentations</h2>
+                    <h4 class="light-grey-text">product management / web dev</h3>
+                    <div class="spacer"></div>
+                    <p class="dark-grey">Developers and marketing employees in my department had to spend several hours a quarter preparing presentations for stakeholders to show off the latest marketing campaigns and assets. I automated the process.</p>
+                    <div class="spacer"></div>
+                    <p class="dark-grey">I implemented a headless content management system that allowed all members of the organization to upload marketing materials/assets as they were created.</p>
+                    <div class="spacer"></div>
+                    <p class="dark-grey">Then, I wrote a microservice in Javascript that compiles all new entries from the quarter, uses Handlebars to build a dynamic web-based presentation using Reveal.js, and publishes the presentation to Amazon S3.</p>
+                    <div class="spacer"></div>
+                    <p><a href="https://github.com/trathod99/cpc-creative-pack" class="green">Read more about it on Github <i class="fas fa-long-arrow-alt-right"></i></a></p>
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
+                    <div class="card-img"></div>
+                </div>
+            </div>
+            <div class="col-2 col-2-right light-grey-bg">
+                <div class="card">
+                    <h2 class="dark-grey">Cal Poly Menus</h2>
+                    <h4 class="light-grey-text">product management / web dev</h4>
+                    <div class="spacer"></div>
+                    <p class="dark-grey">Cal Poly Dining's site was built on an entirely modern stack - well, almost entirely.</p>
+                    <div class="spacer"></div>
+                    <p class="dark-grey">Our menu/nutrition management system was built using ASP and ran on in-house servers, unlike the rest of the site which was pure HTML/CSS/JS and ran on AWS.</p>
+                    <div class="spacer"></div>
+                    <p class="dark-grey">Tasked with modernizing our menu/nutrition management system while keeping costs low, I used Javascript and Datatables to build a frontend for viewing menu items and nutrition information from all on-campus restaurants.</p>
+                    <div class="spacer"></div>
+                    <p class="dark-grey">The backend relied on Airtable, allowing our chefs to now manage and edit their own nutrition information without having to contact a developer.</p>
+                    <div class="spacer"></div>
+                    <p><a href="" class="green">Read the writeup <i class="fas fa-long-arrow-alt-right"></i></a></p>
+                    <div class="spacer"></div>
+                    <div class="spacer"></div>
+                    <div class="card-img"></div>
+                </div>
+            </div>
+            
         </div>
         <div class="spacer"></div>
         <div class="spacer"></div>
@@ -113,7 +123,7 @@
 <script>
     var controller = new ScrollMagic.Controller();
     new ScrollMagic.Scene({
-        duration: 500,
+        duration: 490,
         offset: 0
 	})
 	.setPin(".sticky-scroll", {pushFollowers: false})

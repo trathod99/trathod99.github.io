@@ -2,62 +2,6 @@
     box-sizing: border-box;
 }
 
-/* ANIMATIONS */
-
-.fade-in {
-animation: fadeIn ease 2s;
--webkit-animation: fadeIn ease 2s;
--moz-animation: fadeIn ease 2s;
--o-animation: fadeIn ease 2s;
--ms-animation: fadeIn ease 2s;
-}
-
-
-@keyframes fadeIn{
-0% {
-    opacity:0;
-}
-100% {
-    opacity:1;
-}
-}
-
-@-moz-keyframes fadeIn {
-0% {
-    opacity:0;
-}
-100% {
-    opacity:1;
-}
-}
-
-@-webkit-keyframes fadeIn {
-0% {
-    opacity:0;
-}
-100% {
-    opacity:1;
-}
-}
-
-@-o-keyframes fadeIn {
-0% {
-    opacity:0;
-}
-100% {
-    opacity:1;
-}
-}
-
-@-ms-keyframes fadeIn {
-0% {
-    opacity:0;
-}
-100% {
-    opacity:1;
-}
-}
-
 html {
     font-size: 16px;
 }
@@ -69,9 +13,16 @@ html {
     flex-flow: row wrap;
 }
 
+    .section-title {
+        width:100%;
+        flex-basis: 100%;
+    }
+
 .full-width {
-    width:100vw;
+    width:99vw;
     height: auto;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
 }
 
 .spacer {
@@ -104,31 +55,20 @@ html {
     /* box-shadow: 0px 0px 20px #bbb; */
     height: 600px;
     margin: 20px 0px;
-    padding: 42px;
+    padding: 40px 40px 0px 40px;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 32px;
 }
 
     .card-img {
         width: 120%;
-        margin-left: -42px;
-        height: 700px;
+        margin-left: -50px;
+        height: auto;
     }
 
-        #tinder-card-img {
-            background-image: url("../img/tinder_banner.svg");
+        .card-img img {
+            width: 100%;
         }
-
-        #ev-card-img {
-            background-image: url("../img/evernote_banner.svg");
-            background-size: 40vw;
-        }
-
-/* .curve {
-    background-image: url("../img/curve_bg.svg");
-    background-repeat: no-repeat;
-    background-size: inherit;
-} */
 
 /* ONE-OFFS */
 
@@ -150,6 +90,7 @@ nav {
 
 .header {
     max-width: 768px;
+    margin: 0 auto;
 }
 
     .header span {
@@ -201,6 +142,7 @@ footer {
 
     h4 {
         font-size: 1.3rem;
+        margin-top: 10px;
     }
 
     p {
@@ -210,6 +152,11 @@ footer {
 
     .container {
         width: 310px;
+    }
+
+    .full-width {
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
     }
 
     nav {
@@ -229,12 +176,13 @@ footer {
     }
 
     .card {
-        padding: 24px 18px;
+        padding: 28px 22px 10px 22px;
+        height: auto;
     }
-    
-        #ev-card-img {
-            background-image: url("../img/evernote_banner.svg");
-            background-size: 100vw;
+
+        .card-img img {
+            width: 110%;
+            margin-bottom: -10px;
         }
 
 }
@@ -256,6 +204,17 @@ footer {
     .header h3 {
         max-width: 100%;
     }
+
+    .card {
+        padding: 18px 18px -20px 18px;
+    }
+
+        .card-img img {
+            width: 105%;
+            position: relative;
+            top: 6px;
+        }
+
 }
 
 /* SETS UP COLUMNS */
@@ -288,6 +247,15 @@ footer {
 
 }
 
+@media (min-width: 768px) and (orientation: portrait) {
+
+
+    .card img {
+        width: 120%;
+    }
+
+}
+
 /* THESE JUST ADJUST CONTAINER WIDTH */ 
 @media (min-width: 992px) { 
 
@@ -303,4 +271,4 @@ footer {
         width: 1140px;
     }
 
-    }
+}
