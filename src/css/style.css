@@ -159,6 +159,10 @@ footer {
         border-top-right-radius: 40px;
     }
 
+        .big-spacer {
+            height: 60px;
+        }
+
     nav {
         margin: 40px 0;
     }
