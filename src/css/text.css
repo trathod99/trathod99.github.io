@@ -90,6 +90,6 @@ a {
             margin-left: 6px;
         }
 
-        a:hover i {
+        a.large-icon:hover i {
             top: 8px;
         }
