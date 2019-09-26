@@ -5,8 +5,8 @@
 }
 
 h1 {
-    font-family: jubilat, futura-pt, Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    font-family: futura-pt, Arial, Helvetica, sans-serif;
+    font-weight: 700;
     letter-spacing: 0.5px;
     line-height: 5rem;
     font-size: 4rem;
@@ -19,12 +19,6 @@ h2 {
     line-height: 2.4rem;
     font-size: 2rem;
 }
-
-    h2.fancy {
-        font-family: jubilat;
-        font-size: 2.2rem;
-        font-weight: 500;
-    }
 
 h3 {
     font-family: futura-pt, Arial, Helvetica, sans-serif;
@@ -41,6 +35,14 @@ h4 {
     letter-spacing: 0.7px;
     line-height: 1.5rem;
     text-transform: uppercase;
+    font-weight: 700;
+}
+
+h5 {
+    font-family: proxima-nova, Arial, Helvetica, sans-serif;
+    font-size: 1.15rem;
+    letter-spacing: 0.7px;
+    line-height: 1.6rem;
     font-weight: 700;
 }
 
@@ -77,6 +79,7 @@ a {
         top: 1px;
         left: 2px;
         transition-duration: 0.3s;
+        margin-right: 6px;
     }
 
         a:hover i {

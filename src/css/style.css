@@ -18,11 +18,13 @@ html {
         flex-basis: 100%;
     }
 
+    /* .hero {
+        height: 100vh;
+    } */
+
 .full-width {
-    width:99vw;
+    width:100vw;
     height: auto;
-    border-top-left-radius: 80px;
-    border-top-right-radius: 80px;
 }
 
 .spacer {
@@ -106,6 +108,8 @@ nav {
 .layer-over {
     position: relative;
     z-index: 10;
+    /* border-top-left-radius: 80px;
+    border-top-right-radius: 80px; */
 }
 
 footer {
@@ -154,11 +158,11 @@ footer {
     .container {
         width: 310px;
     }
-
+/* 
     .full-width {
         border-top-left-radius: 40px;
         border-top-right-radius: 40px;
-    }
+    } */
 
         .big-spacer {
             height: 40px;
