@@ -219,9 +219,13 @@ footer {
     }
 
         .card-img img {
-            width: 105%;
+            width: 110%;
             position: relative;
             top: 6px;
+        }
+
+        .card a {
+            margin-bottom: 10px;
         }
 
 }
